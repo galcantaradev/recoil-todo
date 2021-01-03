@@ -35,6 +35,7 @@ export const TodoItemForm = () => {
         name="description"
         onKeyDown={event => (event.key === 'Enter' ? addItem() : null)}
         onChange={handleChange}
+        placeholder="descripion"
       />
       <button onClick={addItem}>add</button>
     </div>
